@@ -1,6 +1,6 @@
 # katex-tw5
 
-Wrapper for KaTex (https://katex.org/).
+Wrapper for KaTeX (https://katex.org/).
 
 Tiddlywiki website/notebook including the plugin: http://efurlanm.github.io/katex-tw5 . You can install the plugin by navigating to the site and dragging the link to your TiddlyWiki.
 

@@ -1,5 +1,5 @@
 created: 20221227170552140
-modified: 20221227190321148
+modified: 20221227204329263
 title: HelloThere
 type: text/vnd.tiddlywiki
 
@@ -8,7 +8,7 @@ Welcome to my TiddlyWiki notebook. I'm not the author of the plugin katex, I jus
 ;2022-12-27 (0.16.4)
 :Update KaTeX to [[0.16.4|https://github.com/KaTeX/KaTeX/releases]] - please check the Release Notes in the KaTeX repository to see what has changed.
 :Update TiddlyWiki to 5.2.5.
-:The part referring to chemical equations was eliminated, to try to minimize the plugin overhead as much as possible. If they are needed, it's relatively easy to add them back, just look at how they are configured in the original plugin.
+:The part referring to chemical equations was eliminated, to try to minimize the plugin overhead as much as possible.
 
 This is a TiddlyWiki plugin for mathematical typesetting based on KaTeX from Khan Academy.
 
