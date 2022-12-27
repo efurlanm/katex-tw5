@@ -1,0 +1,83 @@
+created: 20221227185914381
+modified: 20221227190854047
+tags: 
+title: from cran.r-project.org/web/packages/katex
+type: text/vnd.tiddlywiki
+
+
+```
+$$
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+$$
+```
+$$
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+$$
+
+
+```
+$$
+\int u \frac{dv}{dx}\,dx=uv-\int \frac{du}{dx}v\,dx
+$$
+```
+$$
+\int u \frac{dv}{dx}\,dx=uv-\int \frac{du}{dx}v\,dx
+$$
+
+
+```
+$$
+S (\omega)=\frac{\alpha g^2}{\omega^5} \,e ^{[-0.74\bigl\{\frac{\omega U_\omega 19.5}{g}\bigr\}^{-4}]}
+$$
+```
+$$
+S (\omega)=\frac{\alpha g^2}{\omega^5} \,e ^{[-0.74\bigl\{\frac{\omega U_\omega 19.5}{g}\bigr\}^{-4}]}
+$$
+
+
+```
+$$
+f(n) = \begin{cases} \frac{n}{2}, & \text{if } n\text{ is even} \\
+3n+1, & \text{if } n\text{ is odd} \end{cases}
+$$
+```
+$$
+f(n) = \begin{cases} \frac{n}{2}, & \text{if } n\text{ is even} \\
+3n+1, & \text{if } n\text{ is odd} \end{cases}
+$$
+
+
+```
+$$
+\begin{aligned}
+\dot{x} & = \sigma(y-x) \\ 
+\dot{y} & = \rho x - y - xz \\ 
+\dot{z} & = -\beta z + xy 
+\end{aligned}
+$$
+```
+$$
+\begin{aligned}
+\dot{x} & = \sigma(y-x) \\ 
+\dot{y} & = \rho x - y - xz \\ 
+\dot{z} & = -\beta z + xy 
+\end{aligned}
+$$
+
+
+```
+$$
+\begin{pmatrix} 
+a_{11} & a_{12} & a_{13}\\ 
+a_{21} & a_{22} & a_{23}\\ 
+a_{31} & a_{32} & a_{33} 
+\end{pmatrix}
+$$
+```
+$$
+\begin{pmatrix} 
+a_{11} & a_{12} & a_{13}\\ 
+a_{21} & a_{22} & a_{23}\\ 
+a_{31} & a_{32} & a_{33} 
+\end{pmatrix}
+$$

@@ -1,0 +1,86 @@
+created: 20221227170552140
+modified: 20221227190321148
+title: HelloThere
+type: text/vnd.tiddlywiki
+
+Welcome to my TiddlyWiki notebook. I'm not the author of the plugin katex, I just got what I was already ready (https://tiddlywiki.com/plugins/tiddlywiki/katex), and updated the files to the latest version. All credits are from the original authors.
+
+;2022-12-27 (0.16.4)
+:Update KaTeX to [[0.16.4|https://github.com/KaTeX/KaTeX/releases]] - please check the Release Notes in the KaTeX repository to see what has changed.
+:Update TiddlyWiki to 5.2.5.
+:The part referring to chemical equations was eliminated, to try to minimize the plugin overhead as much as possible. If they are needed, it's relatively easy to add them back, just look at how they are configured in the original plugin.
+
+This is a TiddlyWiki plugin for mathematical typesetting based on KaTeX from Khan Academy.
+
+It is completely self-contained, and doesn't need an Internet connection in order to work. It works both in the browser and under Node.js.
+
+! Installation
+
+To add the plugin to your own wiki, just //drag the following link to your ~TiddlyWiki browser window//:
+
+[[$:/plugins/tiddlywiki/katex]]
+
+! Using KaTeX
+
+The usual way to include ~LaTeX is to use `$$`, as shown in the examples below.
+
+The underlying KaTeX widget is provided under the name `<$latex>` and is also available under the alias `<$katex>`. It's better to use the generic `<$latex>` name unless you are running multiple ~LaTeX plugins and wish to specifically target KaTeX.
+
+! Examples
+
+These examples are taken from [ext[http://khan.github.io/KaTeX/]]
+
+If the text between `$$` contains newlines it will rendered in display mode:
+
+
+```
+$$
+f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
+$$
+```
+
+$$
+f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
+$$
+
+
+```
+$$
+\frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} = 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}} {1+\frac{e^{-8\pi}} {1+\cdots} } } }
+$$
+```
+
+$$
+\frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} = 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}} {1+\frac{e^{-8\pi}} {1+\cdots} } } }
+$$
+
+
+```
+$$
+1 +  \frac{q^2}{(1-q)}+\frac{q^6}{(1-q)(1-q^2)}+\cdots = \prod_{j=0}^{\infty}\frac{1}{(1-q^{5j+2})(1-q^{5j+3})}, \quad\quad \text{for }\lvert q\rvert<1.
+$$
+```
+
+$$
+1 +  \frac{q^2}{(1-q)}+\frac{q^6}{(1-q)(1-q^2)}+\cdots = \prod_{j=0}^{\infty}\frac{1}{(1-q^{5j+2})(1-q^{5j+3})}, \quad\quad \text{for }\lvert q\rvert<1.
+$$
+
+!! Widget Example
+
+For more flexibility the KaTeX widget can also be used via the full widget syntax:
+
+```
+<$latex text="f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi" displayMode="true"></$latex>
+```
+
+<$latex text="f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi" displayMode="true"></$latex>
+
+! ''Error Handling''
+
+Any LaTeX syntax errors are flagged with the problematic syntax highlighted. For example:
+
+```
+$$ f(x) = \int_{-\infty}^\infinity\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi $$
+```
+
+$$ f(x) = \int_{-\infty}^\infinity\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi $$

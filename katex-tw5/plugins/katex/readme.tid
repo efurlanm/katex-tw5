@@ -1,0 +1,17 @@
+title: $:/plugins/tiddlywiki/katex/readme
+
+!Installation
+
+You can drag the plugin link into your TiddlyWiki to install.
+
+!Info
+
+This is a TiddlyWiki plugin for mathematical typesetting based on [ext[KaTeX from Khan Academy|https://katex.org/]].
+
+It is completely self-contained, and doesn't need an Internet connection in order to work. It works both in the browser and under [ext[Node.js|http://nodejs.org]].
+
+Source code: http://github.com/efurlanm/katex-tw5
+
+Original files: https://tiddlywiki.com/plugins/tiddlywiki/katex
+
+License: my work follows the MIT license, and what was done by the other author(s) follow their respective licenses.

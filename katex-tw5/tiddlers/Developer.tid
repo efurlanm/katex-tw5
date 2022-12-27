@@ -1,0 +1,37 @@
+created: 20221227171010506
+modified: 20221227173159017
+title: Developer
+type: text/vnd.tiddlywiki
+
+!! How to upgrade
+
+* The following steps use the [ext[TiddlyWiki on Node.js|https://tiddlywiki.com/static/TiddlyWiki%2520on%2520Node.js.html]]
+
+* Create a new empty wiki that includes server-related components: `tiddlywiki katex-tw5 --init server`
+
+* Download the sources: `git clone http://github.com/efurlanm/katex-tw5`
+
+* Copy the source wiki's plugins directory, and relevant tiddlers from the tiddlers directory, to the new wiki
+
+* Add to tiddlywiki.info file:
+** "tiddlywiki/tiddlyweb",
+** "tiddlywiki/filesystem",
+** "tiddlywiki/katex"
+
+* Download and unzip the latest KaTeX release zip file from https://github.com/KaTeX/KaTeX/releases
+
+* Copy only the files that will be updated, from KaTeX and update the plugins directory
+
+* The katex.min.css file is edited manually and the "@font-face{...}" are removed
+
+* In font directory only ".woff" files are used
+
+* Update version in plugin.info file
+
+* Check all other files one by one to see if they are working and up to date
+
+* To check using the browser, go into the wiki root directory and start the server: `tiddlywiki --listen`
+
+* Beware of edits made directly to the file, on the file system, using an external editor: the browser is not automatically updated, and in this case it is necessary to restart the server in order to see the changes
+
+* Once everything is checked and working, just use the cloud button > "Save snapshot for offline use", in the wiki running in the browser, to generate a ".html" file containing the wiki with the plugin

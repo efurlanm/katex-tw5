@@ -1,0 +1,8 @@
+title: $:/DefaultTiddlers
+type: text/vnd.tiddlywiki
+
+HelloThere
+$:/plugins/tiddlywiki/katex
+KaTeX
+Developer
+[[Implementation Notes]]
