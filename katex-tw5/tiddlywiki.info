@@ -1,5 +1,5 @@
 {
-    "description": "Basic client-server edition",
+    "description": "katex-tw5",
     "plugins": [
         "tiddlywiki/tiddlyweb",
         "tiddlywiki/filesystem",
