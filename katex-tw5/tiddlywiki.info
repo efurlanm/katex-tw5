@@ -2,8 +2,7 @@
     "description": "katex-tw5",
     "plugins": [
         "tiddlywiki/tiddlyweb",
-        "tiddlywiki/filesystem",
-        "tiddlywiki/katex"
+        "tiddlywiki/filesystem"
     ],
     "themes": [
         "tiddlywiki/vanilla",

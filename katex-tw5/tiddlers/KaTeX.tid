@@ -1,5 +1,3 @@
-created: 20221227201001490
-modified: 20221227201138475
 title: KaTeX
 type: text/vnd.tiddlywiki
 
@@ -15,6 +13,6 @@ Supported Functions:
 
 http://katex.org/docs/supported.html
 
-Support Table
+Support Table:
 
 https://katex.org/docs/support_table.html

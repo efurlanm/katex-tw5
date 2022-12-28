@@ -1,9 +1,10 @@
-created: 20221227170552140
-modified: 20221227222046250
 title: HelloThere
 type: text/vnd.tiddlywiki
 
 Welcome to my TiddlyWiki notebook. I'm not the author of the plugin katex, I just got what I was already ready (https://tiddlywiki.com/plugins/tiddlywiki/katex), and updated the files to the latest version. All credits are from the original authors.
+
+;2022-12-28 (0.16.4.1)
+:Updated "publisher" and "name", in "$:/plugins/publisher/name". The publisher is now "orange", and the name is "katex-tw5".
 
 ;2022-12-27 (0.16.4)
 :Update KaTeX to [[0.16.4|https://github.com/KaTeX/KaTeX/releases]] - please check the Release Notes in the KaTeX repository to see what has changed.
@@ -20,7 +21,7 @@ It is completely self-contained, and doesn't need an Internet connection in orde
 
 To add the plugin to your own wiki, just //drag the following link to your ~TiddlyWiki browser window//:
 
-[[$:/plugins/tiddlywiki/katex]]
+[[$:/plugins/orange/katex-tw5]]
 
 
 

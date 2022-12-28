@@ -2,7 +2,7 @@ title: $:/DefaultTiddlers
 type: text/vnd.tiddlywiki
 
 HelloThere
-$:/plugins/tiddlywiki/katex
+$:/plugins/orange/katex-tw5
 KaTeX
 Developer
 [[Implementation Notes]]
