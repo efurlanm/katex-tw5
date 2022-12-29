@@ -10,8 +10,6 @@ I'm not the author of the plugin, I just got what I was already ready, and updat
 
 As I didn't make the plugin, I have no idea how to eliminate issues. Please contact the original authors.
 
-The plugin will add 0.8 MB to the empty TW 5.2.5 file size (2.3 MB), for a total of 3.1 MB.
-
 
 # katex-small experimental version
 
