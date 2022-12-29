@@ -13,7 +13,7 @@ As I didn't make the plugin, I have no idea how to eliminate issues. Please cont
 
 # katex-small experimental version
 
-Just for fun I made a small experimental version that represents a ~ 25% reduction in size:
+Just for fun I made a experimental small version that represents a ~ 25% reduction in size:
 
 http://efurlanm.github.io/katex-small
 
