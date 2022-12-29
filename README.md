@@ -2,7 +2,7 @@
 
 Wrapper for KaTeX (https://katex.org/).
 
-TiddlyWiki website/notebook including the plugin: http://efurlanm.github.io/katex-tw5 . You can install the plugin by navigating to the site and dragging the plugin link to your TiddlyWiki.
+TiddlyWiki notebook including the plugin: http://efurlanm.github.io/katex-tw5 . You can install the plugin by navigating to the site and dragging the plugin link to your TiddlyWiki.
 
 I'm not the author of the plugin, I just got what I was already ready, and updated the files to the latest version. All credits are from the original authors:
 
@@ -11,6 +11,13 @@ I'm not the author of the plugin, I just got what I was already ready, and updat
 As I didn't make the plugin, I have no idea how to eliminate issues. Please contact the original authors.
 
 The plugin will add 0.8 MB to the empty TW 5.2.5 file size (2.3 MB), for a total of 3.1 MB.
+
+
+# katex-small experimental version
+
+Just for fun I made a small experimental version that represents a 25% reduction (0.2 MB) and occupies 0.6 MB:
+
+http://efurlanm.github.io/katex-small
 
 
 # About TiddlyWiki

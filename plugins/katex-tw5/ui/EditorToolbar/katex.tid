@@ -1,8 +1,0 @@
-title: $:/plugins/orange/katex-tw5/ui/EditorToolbar/katex
-tags: $:/tags/EditorToolbar
-icon: $:/plugins/orange/katex-tw5/katex-logo
-caption: katex
-description: create and insert preconfigured KaTeX snippets
-condition: [<targetTiddler>!is[image]]
-dropdown: $:/plugins/orange/katex-tw5/ui/EditorToolbar/katex-dropdown
-text:

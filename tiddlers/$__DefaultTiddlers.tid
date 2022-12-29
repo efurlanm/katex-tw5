@@ -1,8 +1,0 @@
-title: $:/DefaultTiddlers
-type: text/vnd.tiddlywiki
-
-HelloThere
-$:/plugins/orange/katex-tw5
-KaTeX
-Developer
-[[Implementation Notes]]
