@@ -23,4 +23,4 @@ The following steps use the [ext[TiddlyWiki on Node.js|https://tiddlywiki.com/st
 
 * Beware of edits made directly to the file, on the file system, using an external editor: the browser is not automatically updated, and it is necessary to restart the server in order to see the changes
 
-* Once everything is checked and working, just use the cloud button and select "Save snapshot for offline use" to generate a ".html" file containing the wiki with the plugin
+* Once everything is checked and working, just use the cloud button and select "Save snapshot for offline use" to generate a tiddlywiki.html file containing the wiki and the plugin
