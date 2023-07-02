@@ -1,0 +1,96 @@
+created: 20230701211931390
+modified: 20230702005859673
+tags: Examples
+title: Examples from observablehq.com
+type: text/vnd.tiddlywiki
+
+```
+$$
+x = \dfrac{-b \ \pm \sqrt{b^2 - 4ac}}{2a}
+$$
+```
+$$
+x = \dfrac{-b \ \pm \sqrt{b^2 - 4ac}}{2a}
+$$
+
+```
+$$
+x = \sqrt[3]{ y + \sqrt {y^2 + \bigg( \dfrac{c}{3a} - \dfrac{b^2}{9a^2} \bigg)^3}}
+$$
+```
+$$
+x = \sqrt[3]{ y + \sqrt {y^2 + \bigg( \dfrac{c}{3a} - \dfrac{b^2}{9a^2} \bigg)^3}}
+$$
+
+```
+$$
+\log_{b}x = y > b^y = x
+$$
+```
+$$
+\log_{b}x = y > b^y = x
+$$
+
+```
+$$
+\dfrac{\sin^2\varTheta}{\cos^2\varTheta} \equiv \tan^2 \varTheta
+$$
+```
+$$
+\dfrac{\sin^2\varTheta}{\cos^2\varTheta} \equiv \tan^2 \varTheta
+$$
+
+
+```
+$$
+a + ar + ar^2 + ar^3 + \dots + ar^{n-1} = \displaystyle\sum_{k=0}^{n - 1}ar^k = a \bigg(\dfrac{1 - r^n}{1 -r}\bigg)
+$$
+```
+$$
+a + ar + ar^2 + ar^3 + \dots + ar^{n-1} = \displaystyle\sum_{k=0}^{n - 1}ar^k = a \bigg(\dfrac{1 - r^n}{1 -r}\bigg)
+$$
+
+
+```
+$$
+\lim\limits_{h \rightarrow 0} \dfrac{f(a + h) - f(a)}{h}
+$$
+```
+$$
+\lim\limits_{h \rightarrow 0} \dfrac{f(a + h) - f(a)}{h}
+$$
+
+
+```
+$$
+x_1 \dfrac {\partial y}{\partial x_1} + x_2 \dfrac {\partial y}{\partial x_2} = y
+$$
+```
+$$
+x_1 \dfrac {\partial y}{\partial x_1} + x_2 \dfrac {\partial y}{\partial x_2} = y
+$$
+
+
+
+```
+$$
+\Delta E^*_{00} = \sqrt{
+  \Big(\frac{\Delta L'}{k_LS_L}\Big)^2 +
+  \Big(\frac{\Delta C'}{k_CS_C}\Big)^2 +
+  \Big(\frac{\Delta H'}{k_HS_H}\Big)^2 +
+  R_T
+  \frac{\Delta C'}{k_CS_C}
+  \frac{\Delta H'}{k_HS_H}
+}
+$$
+```
+$$
+\Delta E^*_{00} = \sqrt{
+  \Big(\frac{\Delta L'}{k_LS_L}\Big)^2 +
+  \Big(\frac{\Delta C'}{k_CS_C}\Big)^2 +
+  \Big(\frac{\Delta H'}{k_HS_H}\Big)^2 +
+  R_T
+  \frac{\Delta C'}{k_CS_C}
+  \frac{\Delta H'}{k_HS_H}
+}
+$$

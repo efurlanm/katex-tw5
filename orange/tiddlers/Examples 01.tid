@@ -1,0 +1,147 @@
+created: 20230702013457286
+modified: 20230702023325866
+tags: Examples
+title: Examples 01
+type: text/vnd.tiddlywiki
+
+Examples 01 from katex.org/docs/support_table.html
+
+If you know the shape of a character but not its name, [[Detexify|http://detexify.kirelabs.org/]] can help, you draw the character and it gives you suggestions of what character it is.
+
+<table>
+  <tr>
+    <th>Rendered</th>
+    <th>Source</th>
+  </tr>
+  <tr>
+    <td>$$ n! $$</td>
+    <td>`n!`</td>
+  </tr>
+  <tr>
+    <td>$$ a\!b $$</td>
+    <td>`a\!b`</td>
+  </tr>
+  <tr>
+    <td>$$ \def\sqr#1{#1^2} \sqr{y} $$</td>
+    <td>`\def\sqr#1{#1^2} \sqr{y}`</td>
+  </tr>
+  <tr>
+    <td>$$ %this is a comment $$</td>
+    <td>`%this is a comment`</td>
+  </tr>
+  <tr>
+    <td>$$ {a \above{2pt} b+1} $$</td>
+    <td>`{a \above{2pt} b+1}`</td>
+  </tr>
+  <tr>
+    <td>
+$$ \begin{matrix}
+  a & b \\
+  c & d
+\end{matrix}
+$$
+    </td>
+    <td>
+`\begin{matrix}
+  a & b \\
+  c & d
+\end{matrix}`
+    </td>
+  </tr>
+  <tr>
+    <td>
+$$
+\begin{align}
+  a & = b + c  \qquad  \\
+  d + e & = f
+\end{align}
+$$
+    </td>
+    <td>
+`
+\begin{align}
+  a & = b + c \\
+  d + e & = f 
+\end{align}
+`
+    </td>
+  </tr>
+  <tr>
+    <td>
+$$
+\begin{align*}
+  a & = b + c  \qquad  \\
+  d + e & = f
+\end{align*}
+$$
+    </td>
+    <td>
+`
+\begin{align*}
+  a & = b + c \\ 
+  d + e & = f 
+\end{align*}
+`
+    </td>
+  </tr>
+  <tr>
+    <td>
+$$
+\begin{alignat}{2}
+   10&x+&3&y = 2  \qquad  \\
+   3&x+&13&y = 4
+\end{alignat}
+$$
+    </td>
+    <td>
+`
+\begin{alignat}{2}
+   10&x+&3&y = 2 \\
+   3&x+&13&y = 4
+\end{alignat}
+`
+    </td>
+  </tr>
+  <tr>
+    <td>
+$$
+\begin{array}{cc}
+   a & b \\
+   c & d
+\end{array}
+$$
+    </td>
+    <td>
+`
+\begin{array}{cc}
+   a & b \\
+   c & d
+\end{array}
+`
+    </td>
+  </tr>
+  <tr>
+    <td>
+$$
+\def\arraystretch{2.5}
+\begin{array}{cc}
+   a & b \\
+   c & d
+\end{array}
+$$
+    </td>
+    <td>
+`
+\def\arraystretch{2.5}
+\begin{array}{cc}
+   a & b \\
+   c & d
+\end{array}
+`
+    </td>
+  </tr>
+  <tr>
+    <td>$$ {a \atop b} $$</td>
+    <td>`{a \atop b}`</td>
+  </tr>
+</table> 

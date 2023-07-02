@@ -1,0 +1,50 @@
+created: 20230702024607438
+modified: 20230702031450365
+tags: Examples
+title: Examples 03
+type: text/vnd.tiddlywiki
+
+Examples 03 from katex.org/docs/support_table.html
+
+<table>
+  <tr>
+    <th>Rendered</th>
+    <th>Source</th>
+  </tr>
+  <tr>
+    <td>
+$$
+\begin{align}
+   a&=b+c \notag\\
+   d+e&=f
+\end{align}
+$$
+    </td>
+    <td>
+`\begin{align}
+  a&=b+c \notag \\
+  d+e&=f
+\end{align}`
+    </td>
+  </tr>
+  <tr>
+    <td>$$ \footnotesize footnotesize $$</td>
+    <td>`\footnotesize footnotesize`</td>
+  </tr>
+  <tr>
+    <td>$$ w\hskip1em i\hskip2em d $$</td>
+    <td>`w\hskip1em i\hskip2em d`</td>
+  </tr>
+  <tr>
+    <td>$$ A\iff B $$</td>
+    <td>`A\iff B`</td>
+  </tr>
+  <tr>
+    <td>$$ P\implies Q $$</td>
+    <td>`P\implies Q`</td>
+  </tr>
+  <tr>
+    <td>$$\textstyle \sum_{\substack{0<i<m\\0<j<n}} $$</td>
+    <td>`\textstyle \sum_{\substack{0<i<m\\0<j<n}}`</td>
+  </tr>
+</table> 

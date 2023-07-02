@@ -1,0 +1,13 @@
+created: 20230701215952454
+modified: 20230702013249436
+tags: 
+title: Error Handling
+type: text/vnd.tiddlywiki
+
+Any LaTeX syntax errors are flagged with the problematic syntax highlighted. For example :
+
+```
+$$ f(x) = \int_{-\infty}^\infinity\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi $$
+```
+
+$$ f(x) = \int_{-\infty}^\infinity\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi $$

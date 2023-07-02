@@ -1,0 +1,9 @@
+created: 20230702002603533
+modified: 20230702002623194
+tags: 
+title: Installation
+type: text/vnd.tiddlywiki
+
+To add the plugin to your own wiki, just //drag the following link to your ~TiddlyWiki browser window// :
+
+[[$:/plugins/orange/katex-tw5]]

@@ -1,0 +1,558 @@
+created: 20230701211925768
+modified: 20230702005908311
+tags: Examples
+title: Examples from kookma-katex.tiddlyhost.com
+type: text/vnd.tiddlywiki
+
+
+
+```
+$$
+\begin{align*}
+\frac{dF}{dW}
+      &= -k_f C_A C_B\\[5mm]
+			
+\frac{dT}{dW}
+      &= \frac{ -r_i \Delta H_i - Ua (T - T_a)}{\sum F_i C_{pi}}		
+			
+\end{align*}
+$$
+```
+$$
+\begin{align*}
+\frac{dF}{dW}
+      &= -k_f C_A C_B\\[5mm]
+			
+\frac{dT}{dW}
+      &= \frac{ -r_i \Delta H_i - Ua (T - T_a)}{\sum F_i C_{pi}}		
+			
+\end{align*}
+$$
+
+
+```
+$$
+\begin{equation}
+\begin{split}
+   a &=b+c\\
+      &=e+f
+\end{split}
+\end{equation}
+$$
+```
+$$
+\begin{equation}
+\begin{split}
+   a &=b+c\\
+      &=e+f
+\end{split}
+\end{equation}
+$$
+
+
+```
+$$
+\begin{equation*}
+\begin{split}
+   a &=b+c\\
+      &=e+f
+\end{split}
+\end{equation*}
+$$
+```
+$$
+\begin{equation*}
+\begin{split}
+   a &=b+c\\
+      &=e+f
+\end{split}
+\end{equation*}
+$$
+
+
+```
+$$
+\begin{align}
+   a&=b+c \\
+   d+e&=f
+\end{align}
+$$
+```
+$$
+\begin{align}
+   a&=b+c \\
+   d+e&=f
+\end{align}
+$$
+
+
+```
+$$
+\begin{alignat}{2}
+   10&x+&3&y=2\\
+   3&x+&13&y=4
+\end{alignat}
+$$
+```
+$$
+\begin{alignat}{2}
+   10&x+&3&y=2\\
+   3&x+&13&y=4
+\end{alignat}
+$$
+
+
+```
+$$
+\def\arraystretch{1.5}
+   \begin{array}{c:c:c}
+   a & b & c \\ \hline
+   d & e & f \\
+   \hdashline
+   g & h & i
+\end{array}
+$$
+```
+$$
+\def\arraystretch{1.5}
+   \begin{array}{c:c:c}
+   a & b & c \\ \hline
+   d & e & f \\
+   \hdashline
+   g & h & i
+\end{array}
+$$
+
+
+```
+$$
+\begin{CD}
+A @>{\varphi}>> B \\
+@V{\varrho_f}VV @VV{\varrho_g}V\\
+A_f @>{\varphi}>> B_g 
+\end{CD}
+$$
+```
+$$
+\begin{CD}
+A @>{\varphi}>> B \\
+@V{\varrho_f}VV @VV{\varrho_g}V\\
+A_f @>{\varphi}>> B_g 
+\end{CD}
+$$
+
+
+
+```
+$$
+\begin{CD}
+   A @>a>> B \\
+@VbVV @AAcA \\
+   C @= D
+\end{CD}
+$$
+```
+$$
+\begin{CD}
+   A @>a>> B \\
+@VbVV @AAcA \\
+   C @= D
+\end{CD}
+$$
+
+
+```
+$$
+\begin{CD}
+(0,0) @         >1/2>>  (1,0) @>1/3>>  (2,0) @.            @.            @.     @.    \\
+      @V 1/2 VV               @V2/3 VV       @V1 VV        @.            @.     @. @. \\
+(1,1) @         >2/3>>  (2,1) @>1/2>>  (3,1) @.            @.            @.     @.    \\
+      @V 1/3 VV               @V1/2 VV       @V1 VV        @.            @.     @. @. \\
+(2,2) @         > 1 >>  (3,2) @>1/2>>  (4,2) @>1/2>>  (5,2)@>1/3>>  (6,2)@.     @.    \\
+      @.                      @.             @V1/2VV       @V2/3VV       @V1 VV @. @. \\
+      @.                      @.       (5,3) @>2/3>>  (6,3)@>1/2>>  (7,3)@.     @.      
+\end{CD}
+$$
+```
+$$
+\begin{CD}
+(0,0) @         >1/2>>  (1,0) @>1/3>>  (2,0) @.            @.            @.     @.    \\
+      @V 1/2 VV               @V2/3 VV       @V1 VV        @.            @.     @. @. \\
+(1,1) @         >2/3>>  (2,1) @>1/2>>  (3,1) @.            @.            @.     @.    \\
+      @V 1/3 VV               @V1/2 VV       @V1 VV        @.            @.     @. @. \\
+(2,2) @         > 1 >>  (3,2) @>1/2>>  (4,2) @>1/2>>  (5,2)@>1/3>>  (6,2)@.     @.    \\
+      @.                      @.             @V1/2VV       @V2/3VV       @V1 VV @. @. \\
+      @.                      @.       (5,3) @>2/3>>  (6,3)@>1/2>>  (7,3)@.     @.      
+\end{CD}
+$$
+
+
+```
+$$
+\lim_{x \to a} \frac{f(x)-f(a)}{x-a}
+$$
+```
+$$
+\lim_{x \to a} \frac{f(x)-f(a)}{x-a}
+$$
+
+
+```
+$$
+\sum_{n=0}^{\infty} \frac{1}{n^2+1}
+$$
+```
+$$
+\sum_{n=0}^{\infty} \frac{1}{n^2+1}
+$$
+
+
+
+```
+$$
+\mathbf{x} \otimes \mathbf{y} \otimes \mathbf{z}=
+\begin{aligned}
+\left[\begin{array}{l}
+x_{1} \\
+x_{2}
+\end{array}\right] \otimes\left[\begin{array}{l}
+y_{1} \\
+y_{2}
+\end{array}\right] \otimes\left[\begin{array}{l}
+z_{1} \\
+z_{2}
+\end{array}\right]=\left[\begin{array}{l}
+x_{1} \\
+x_{2}
+\end{array}\right] \otimes\left[\begin{array}{l}
+y_{1} z_{1} \\
+y_{1} z_{2} \\
+y_{2} z_{1} \\
+y_{2} z_{2}
+\end{array}\right] =\left[\begin{array}{l}
+x_{1} y_{1} z_{1} \\
+x_{1} y_{1} z_{2} \\
+x_{1} y_{2} z_{1} \\
+x_{1} y_{2} z_{2} \\
+x_{2} y_{1} z_{1} \\
+x_{2} y_{1} z_{2} \\
+x_{2} y_{2} z_{1} \\
+x_{2} y_{2} z_{2}
+\end{array}\right]
+\end{aligned}
+$$
+```
+$$
+\mathbf{x} \otimes \mathbf{y} \otimes \mathbf{z}=
+\begin{aligned}
+\left[\begin{array}{l}
+x_{1} \\
+x_{2}
+\end{array}\right] \otimes\left[\begin{array}{l}
+y_{1} \\
+y_{2}
+\end{array}\right] \otimes\left[\begin{array}{l}
+z_{1} \\
+z_{2}
+\end{array}\right]=\left[\begin{array}{l}
+x_{1} \\
+x_{2}
+\end{array}\right] \otimes\left[\begin{array}{l}
+y_{1} z_{1} \\
+y_{1} z_{2} \\
+y_{2} z_{1} \\
+y_{2} z_{2}
+\end{array}\right] =\left[\begin{array}{l}
+x_{1} y_{1} z_{1} \\
+x_{1} y_{1} z_{2} \\
+x_{1} y_{2} z_{1} \\
+x_{1} y_{2} z_{2} \\
+x_{2} y_{1} z_{1} \\
+x_{2} y_{1} z_{2} \\
+x_{2} y_{2} z_{1} \\
+x_{2} y_{2} z_{2}
+\end{array}\right]
+\end{aligned}
+$$
+
+
+```
+$$
+\begin{matrix} 
+a & b \\
+c & d 
+\end{matrix}
+\quad
+\begin{pmatrix} 
+a & b \\
+c & d 
+\end{pmatrix}
+\quad
+\begin{bmatrix} 
+a & b \\
+c & d 
+\end{bmatrix}
+\quad
+\begin{vmatrix} 
+a & b \\
+c & d 
+\end{vmatrix}
+\quad
+\begin{Vmatrix} 
+a & b \\
+c & d 
+\end{Vmatrix}
+$$
+```
+$$
+\begin{matrix} 
+a & b \\
+c & d 
+\end{matrix}
+\quad
+\begin{pmatrix} 
+a & b \\
+c & d 
+\end{pmatrix}
+\quad
+\begin{bmatrix} 
+a & b \\
+c & d 
+\end{bmatrix}
+\quad
+\begin{vmatrix} 
+a & b \\
+c & d 
+\end{vmatrix}
+\quad
+\begin{Vmatrix} 
+a & b \\
+c & d 
+\end{Vmatrix}
+$$
+
+
+```
+$$
+\begin{bmatrix}
+    x_{11}       & x_{12} & x_{13} & \dots & x_{1n} \\
+    x_{21}       & x_{22} & x_{23} & \dots & x_{2n} \\
+    \dots \\
+    x_{d1}       & x_{d2} & x_{d3} & \dots & x_{dn}
+\end{bmatrix}
+$$
+```
+$$
+\begin{bmatrix}
+    x_{11}       & x_{12} & x_{13} & \dots & x_{1n} \\
+    x_{21}       & x_{22} & x_{23} & \dots & x_{2n} \\
+    \dots \\
+    x_{d1}       & x_{d2} & x_{d3} & \dots & x_{dn}
+\end{bmatrix}
+$$
+
+
+```
+$$
+\begin{equation*}
+A_{m,n} = 
+\begin{pmatrix}
+a_{1,1} & a_{1,2} & \cdots & a_{1,n} \\
+a_{2,1} & a_{2,2} & \cdots & a_{2,n} \\
+\vdots  & \vdots  & \ddots & \vdots  \\
+a_{m,1} & a_{m,2} & \cdots & a_{m,n} 
+\end{pmatrix}
+\end{equation*}
+$$
+```
+$$
+\begin{equation*}
+A_{m,n} = 
+\begin{pmatrix}
+a_{1,1} & a_{1,2} & \cdots & a_{1,n} \\
+a_{2,1} & a_{2,2} & \cdots & a_{2,n} \\
+\vdots  & \vdots  & \ddots & \vdots  \\
+a_{m,1} & a_{m,2} & \cdots & a_{m,n} 
+\end{pmatrix}
+\end{equation*}
+$$
+
+
+```
+$$
+\begin{equation}
+   \begin{vmatrix} 
+   a_{11} & a_{12} & a_{13}  \\
+   a_{21} & a_{22} & a_{23}  \\
+   a_{31} & a_{32} & a_{33}  \\
+   \end{vmatrix} 
+\end{equation}
+$$
+```
+$$
+\begin{equation}
+   \begin{vmatrix} 
+   a_{11} & a_{12} & a_{13}  \\
+   a_{21} & a_{22} & a_{23}  \\
+   a_{31} & a_{32} & a_{33}  \\
+   \end{vmatrix} 
+\end{equation}
+$$
+
+
+```
+$$
+\begin{equation}
+   \begin{Vmatrix} 
+   a_{11} & a_{12} & a_{13}  \\
+   a_{21} & a_{22} & a_{23}  \\
+   a_{31} & a_{32} & a_{33}  \\
+   \end{Vmatrix} 
+\end{equation}
+$$
+```
+$$
+\begin{equation}
+   \begin{Vmatrix} 
+   a_{11} & a_{12} & a_{13}  \\
+   a_{21} & a_{22} & a_{23}  \\
+   a_{31} & a_{32} & a_{33}  \\
+   \end{Vmatrix} 
+\end{equation}
+$$
+
+
+```
+$$
+\begin{equation}
+   \begin{Bmatrix} 
+   a_{11} & a_{12} & a_{13}  \\
+   a_{21} & a_{22} & a_{23}  \\
+   a_{31} & a_{32} & a_{33}  \\
+   \end{Bmatrix} 
+\end{equation}
+$$
+```
+$$
+\begin{equation}
+   \begin{Bmatrix} 
+   a_{11} & a_{12} & a_{13}  \\
+   a_{21} & a_{22} & a_{23}  \\
+   a_{31} & a_{32} & a_{33}  \\
+   \end{Bmatrix} 
+\end{equation}
+$$
+
+
+```
+$$
+A \origof B \imageof C ⊶ D ⊷ E
+$$
+```
+$$
+A \origof B \imageof C ⊶ D ⊷ E
+$$
+
+
+```
+$$
+\int_{a}^b\int_{c}^d f(x,y)dxdy
+$$
+```
+$$
+\int_{a}^b\int_{c}^d f(x,y)dxdy
+$$
+
+
+
+```
+$$
+<div style="color:red;font-size:1.3em">
+$$
+\dfrac{\displaystyle\sum_{i=1}^n f(x_i)}{1 + \dfrac{1}{b}}
+$$
+</div>
+$$
+```
+<div style="color:red;font-size:1.3em">
+$$
+\dfrac{\displaystyle\sum_{i=1}^n f(x_i)}{1 + \dfrac{1}{b}}
+$$
+</div>
+
+
+```
+$$
+\frac{\frac{a}{b+c}+d}{a +\frac{b}{c+d}}
+$$
+```
+$$
+\frac{\frac{a}{b+c}+d}{a +\frac{b}{c+d}}
+$$
+
+
+```
+$$
+\dfrac{1}{\dfrac{a}{b}} \\
+\tfrac{1}{\tfrac{a}{b}} \\
+{\scriptstyle \frac{1}{\frac{a}{b}} } \\
+{\scriptscriptstyle \frac{1}{\frac{a}{b}} }
+$$
+```
+$$
+\dfrac{1}{\dfrac{a}{b}} \\
+\tfrac{1}{\tfrac{a}{b}} \\
+{\scriptstyle \frac{1}{\frac{a}{b}} } \\
+{\scriptscriptstyle \frac{1}{\frac{a}{b}} }
+$$
+
+
+
+```
+$$
+\boldsymbol{ab}\;cd 
+$$
+```
+$$
+\boldsymbol{ab}\;cd 
+$$
+
+
+```
+<style>
+  .katex-version {display: none;}
+  .katex-version::after {content:"0.10.2 or earlier";}
+</style>
+<span class="katex">
+  <span class="katex-mathml">The KaTeX stylesheet is not loaded!</span>
+  <span class="katex-version rule">KaTeX stylesheet version: </span>
+</span>
+```
+
+<style>
+  .katex-version {display: none;}
+  .katex-version::after {content:"0.10.2 or earlier";}
+</style>
+<span class="katex">
+  <span class="katex-mathml">The KaTeX stylesheet is not loaded!</span>
+  <span class="katex-version rule">KaTeX stylesheet version: </span>
+</span>
+
+
+
+```
+$$
+\gdef\t{\expandafter\mathrel\expandafter\text} % text with spacing
+f(x) = \begin{cases}
+1 \t{if} x=0 \\
+0 \t{otherwise.}
+\end{cases}
+$$
+```
+$$
+\gdef\t{\expandafter\mathrel\expandafter\text} % text with spacing
+f(x) = \begin{cases}
+1 \t{if} x=0 \\
+0 \t{otherwise.}
+\end{cases}
+$$

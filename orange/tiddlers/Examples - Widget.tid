@@ -1,0 +1,13 @@
+created: 20230701215933211
+modified: 20230702005726948
+tags: Examples
+title: Examples - Widget
+type: text/vnd.tiddlywiki
+
+For more flexibility the KaTeX widget can also be used via the full widget syntax:
+
+```
+<$latex text="f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi" displayMode="true"></$latex>
+```
+
+<$latex text="f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi" displayMode="true"></$latex>

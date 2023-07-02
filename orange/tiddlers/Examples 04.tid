@@ -1,0 +1,54 @@
+created: 20230702025858380
+modified: 20230702031443831
+tags: Examples
+title: Examples 04
+type: text/vnd.tiddlywiki
+
+Examples from https://katex.org/docs/supported.html
+
+<table>
+  <tr>
+    <th>Rendered</th>
+    <th>Source</th>
+  </tr>
+  <tr>
+    <td>
+$$
+\begin{vmatrix}
+   a & b \\
+   c & d
+\end{vmatrix}
+$$
+    </td>
+    <td>
+`\begin{vmatrix}
+   a & b \\
+   c & d
+\end{vmatrix}
+`
+    </td>
+  </tr>
+  <tr>
+    <td>
+$$
+\def\arraystretch{1.5}
+   \begin{array}{c:c:c}
+   a & b & c \\ \hline
+   d & e & f \\
+   \hdashline
+   g & h & i
+\end{array}
+$$
+    </td>
+    <td>
+`\def\arraystretch{1.5} 
+   \begin{array}{c:c:c}
+   a & b & c \\ \hline
+   d & e & f \\
+   \hdashline
+   g & h & i
+\end{array}
+`
+    </td>
+  </tr>
+</table> 

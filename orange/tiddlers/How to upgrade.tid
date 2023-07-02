@@ -1,0 +1,27 @@
+created: 20230701211755290
+modified: 20230702012951349
+title: How to upgrade
+type: text/vnd.tiddlywiki
+
+The following steps use the [ext[TiddlyWiki on Node.js|https://tiddlywiki.com/static/TiddlyWiki%2520on%2520Node.js.html]] (TWN) :
+
+* Clone the sources from TiddlyWiki github with `git clone --depth 1 --branch v5.3.0 https://github.com/Jermolene/TiddlyWiki5.git` [1]
+
+* Download the latest KaTeX release from `https://github.com/KaTeX/KaTeX/releases` [2]
+
+* One way to update is by creating a new empty TW using TWN, and copying the files from [1] and [2] to the plugins directory
+
+* Manually edit the katex.min.css file and remove the lines with "@font-face{...}"
+
+* In the fonts directory, only ".woff2" files are used, and the `styles.tid` and `tiddlywiki.files` files need to be changed to accommodate the WOFF2 format.
+
+* Update the version inside the `plugin.info` file
+
+* Check all the other files one by one to see if they are working and up to date
+
+* To check using the browser, go into the wiki directory and start the server with `TIDDLYWIKI_PLUGIN_PATH=./plugins tiddlywiki --listen`
+
+* In the case of plugin files, it is necessary to edit the file directly, on the file system, using an external editor. However, the changes are not automatically updated in the browser. It is necessary to restart the server to see the changes
+
+* Once everything is verified and working, simply use the cloud button and select "Save snapshot for offline use" to generate a tiddlywiki.html file containing the wiki and plugin
+
