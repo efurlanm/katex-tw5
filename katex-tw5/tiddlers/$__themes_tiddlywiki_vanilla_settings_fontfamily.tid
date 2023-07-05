@@ -1,6 +1,6 @@
 created: 20230705132425229
-modified: 20230705134253863
+modified: 20230705153753058
 title: $:/themes/tiddlywiki/vanilla/settings/fontfamily
 type: text/vnd.tiddlywiki
 
-KaTeX_Main,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+OpenSans,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;

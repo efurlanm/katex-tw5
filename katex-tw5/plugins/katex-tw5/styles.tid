@@ -167,3 +167,11 @@ title: $:/plugins/orange/katex-tw5/styles
 	font-style: normal;
 }
 
+/* Open Sans v35 latin font URL */
+
+@font-face {
+	font-family: OpenSans;
+	src: url(<<datauri '$:/plugins/orange/katex-tw5/fonts/open-sans-v35-latin-regular.woff2'>>) format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
