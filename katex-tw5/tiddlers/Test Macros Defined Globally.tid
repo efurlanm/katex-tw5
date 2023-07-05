@@ -1,0 +1,13 @@
+created: 20230703024140709
+modified: 20230703024500620
+tags: Examples
+title: Test Macros Defined Globally
+
+* macro tiddler: [[Global Macros Using AboveStory Tag]]
+* method: use: `$:/tags/AboveStory`
+
+$$\Borel$$
+
+```
+$$\Borel$$
+```

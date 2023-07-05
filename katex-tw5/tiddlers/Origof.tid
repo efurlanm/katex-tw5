@@ -1,0 +1,12 @@
+created: 20230703004650436
+modified: 20230703004721035
+tags: Examples
+title: Origof
+
+$$
+A \origof B \imageof C ⊶ D ⊷ E
+$$
+
+```
+A \origof B \imageof C ⊶ D ⊷ E
+```

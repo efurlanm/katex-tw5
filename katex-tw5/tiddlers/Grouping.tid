@@ -1,0 +1,18 @@
+created: 20230703022407427
+modified: 20230703022441056
+tags: Examples
+title: Grouping
+
+`{}` - used for grouping
+
+$$
+\boldsymbol{ab}\;cd 
+$$
+
+```
+$$
+\boldsymbol{ab}\;cd 
+$$
+```
+
+https://www.tutorialspoint.com/tex_commands/index.htm

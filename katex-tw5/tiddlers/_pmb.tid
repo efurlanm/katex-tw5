@@ -1,0 +1,19 @@
+created: 20230703035340356
+modified: 20230703035502265
+tags: Examples
+title: \pmb
+
+$$
+\pmb{\sin} \\
+\pmb{foo} \\
+\pmb{\phi}
+$$
+
+```
+$$
+\pmb{\sin} \\
+\pmb{foo} \\
+\pmb{\phi}
+$$
+```
+https://github.com/KaTeX/KaTeX/issues/3503

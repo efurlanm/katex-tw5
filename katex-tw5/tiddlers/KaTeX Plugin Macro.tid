@@ -1,0 +1,36 @@
+created: 20210916133932802
+modified: 20230703024640408
+tags: Examples
+title: KaTeX Plugin Macro
+
+There are two methods to define KaTeX macros
+
+# Using a tiddler tagged with `$:/tags/AboveStory`
+# Using the KaTeX plugin config tab [[$:/plugins/orange/katex-tw5/config]]
+
+
+!! Use Above Story Tag
+* Create a new tiddler
+* Tag it with <<tag "$:/tags/AboveStory">>
+* add your macro definition as below
+* see for example [[Test Macros Defined Globally]]
+** the body have a `$$...$$` block
+** each macro is defined using `\gdef` in its own line
+
+!! Use the Config Tab of KaTeX Plugin
+* Goto [[$:/plugins/orange/katex-tw5/config]]
+* Open the Config tab
+* ''Method i'': use the custom macro editor
+** add a macro name like `\foo`
+** add the commands like `\mathbb{Z}`
+** click add buton
+* ''Method ii'': use the import box
+** enter your macro one by one in the import box
+** as an example `\def\myfrac#1#2{\frac{#1}{#2}}`
+** enter all other macro definition
+** review the macros enetered under Preview
+** click import to add all macros at once
+
+;Remarks
+:in KaTeX you can ignore arguments in header e.g. instead of `\def\foo#1`, you can have `\def\foo`. KaTeX is smart to recognize the input arguments
+:the recomendation is to give the argument in macro definition

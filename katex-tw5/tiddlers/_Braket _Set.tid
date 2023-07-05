@@ -1,0 +1,20 @@
+created: 20230703034830837
+modified: 20230703034927265
+tags: Examples
+title: \Braket \Set
+
+$$
+\Braket{\frac{a}{b} | y | z} \\
+\Set{\frac{a}{b} | y | z} \\
+\set{\frac{a}{b} | y | z} \\
+$$
+
+```
+$$
+\Braket{\frac{a}{b} | y | z} \\
+\Set{\frac{a}{b} | y | z} \\
+\set{\frac{a}{b} | y | z} \\
+$$
+```
+
+https://github.com/KaTeX/KaTeX/pull/3214

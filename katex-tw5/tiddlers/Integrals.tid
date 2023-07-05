@@ -1,0 +1,49 @@
+created: 20230703020736242
+modified: 20230703020812497
+tags: Examples
+title: Integrals
+
+Examples from https://kookma-katex.tiddlyhost.com/#Math-Linux.com
+
+<table>
+  <tr>
+    <th> Desc </th>
+    <th> Katex code </th>
+    <th> Result </th>
+  </tr>
+  <tr>
+    <td> Integral </td>
+    <td> ` \int ` </td>
+    <td> $$ \int $$ </td>
+  </tr>
+  <tr>
+    <td> Integral limits </td>
+    <td> ` \int_{a}^b f(x)dx ` </td>
+    <td> $$ \int_{a}^b f(x)dx $$ </td>
+  </tr>
+  <tr>
+    <td> Double integral </td>
+    <td> ` \iint ` </td>
+    <td> $$ \iint $$ </td>
+  </tr>
+  <tr>
+    <td> Double integral with limits </td>
+    <td> ` \int_{a}^b\int_{c}^d f(x,y)dxdy ` </td>
+    <td> $$ \int_{a}^b\int_{c}^d f(x,y)dxdy $$ </td>
+  </tr>
+  <tr>
+    <td> Double integral with dots </td>
+    <td> ` \int\dots\int ` </td>
+    <td> $$ \int\dots\int $$ </td>
+  </tr>
+  <tr>
+    <td> Triple integral </td>
+    <td> ` \iiint ` </td>
+    <td> $$ \iiint $$ </td>
+  </tr>
+  <tr>
+    <td> Contour integral </td>
+    <td> ` \oint ` </td>
+    <td> $$ \oint $$ </td>
+  </tr>
+</table>

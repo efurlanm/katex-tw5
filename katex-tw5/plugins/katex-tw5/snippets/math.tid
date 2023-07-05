@@ -1,0 +1,8 @@
+caption: KaTeX mathematical formula
+description: create a math block
+icon: $:/plugins/orange/katex-tw5/katex-logo
+preview: $$i = \sqrt{-1}$$
+tags: $:/tags/KaTeX/Snippet
+title: $:/plugins/orange/katex-tw5/snippets/math
+
+$$\KaTeX$$

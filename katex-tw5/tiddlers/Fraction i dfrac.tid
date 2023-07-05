@@ -1,0 +1,38 @@
+created: 20230703022133721
+modified: 20230703022303313
+tags: Examples
+title: Fraction i dfrac
+
+`\dfrac` draw display style fractions.
+
+$$
+\dfrac{a-1}{b-1}
+$$
+
+```
+$$
+\dfrac{a-1}{b-1}
+$$
+```
+
+$$
+\dfrac{a-1}b-1
+$$
+
+```
+$$
+\dfrac{a-1}b-1
+$$
+```
+
+$$
+\frac{\dfrac{a}{b+c}+d}{a +\dfrac{b}{c+d}}
+$$
+
+```
+$$
+\frac{\dfrac{a}{b+c}+d}{a +\dfrac{b}{c+d}}
+$$
+```
+
+https://www.tutorialspoint.com/tex_commands/cfrac.htm

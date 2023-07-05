@@ -1,0 +1,18 @@
+created: 20230703004420511
+modified: 20230703004440907
+tags: Examples
+title: Matrix ii - pmatrix
+
+$$
+\begin{pmatrix}
+   a & b \\
+   c & d
+\end{pmatrix}
+$$
+
+```
+\begin{pmatrix}
+   a & b \\
+   c & d
+\end{pmatrix}
+```

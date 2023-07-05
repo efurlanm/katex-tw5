@@ -1,0 +1,57 @@
+created: 20210912180957552
+modified: 20230702231110306
+tags: Examples
+title: Chemical Formulas and Equations
+
+Example from SnoephetR2 https://talk.tiddlywiki.org/u/SonephetR2
+
+For chemical formula and equations, use ``ce{}`` as in:
+
+<table>
+<tr>
+    <th>Rendered</th>
+    <th>Source</th>
+</tr>
+<tr>
+  <td>$$\ce{H2O}$$</td>
+  <td>`\ce{H2O}`</td>
+</tr>
+<tr>
+  <td>$$\ce{(CrO4^2-)}$$</td>
+  <td>`\ce{(CrO4^2-)}`</td>
+</tr>
+<tr>
+  <td>$$\ce{$n$ H2O}$$</td>
+  <td>`\ce{$n$ H2O}`</td>
+</tr>
+<tr>
+  <td>$$\ce{^227_90Th+}$$</td>
+  <td>`\ce{^227_90Th+}`</td>
+</tr>
+<tr>
+  <td>$$\ce{(CO2 + C -> 2 CO)}$$</td>
+  <td>`\ce{(CO2 + C -> 2 CO)}`</td>
+</tr>
+<tr>
+  <td>$$\ce{A ->[H2O] B}$$</td>
+  <td>`\ce{A ->[H2O] B}`</td>
+</tr>
+<tr>
+  <td>$$\ce{A\bond{1}B\bond{2}C\bond{3}D}$$</td>
+  <td>`\ce{A\bond{1}B\bond{2}C\bond{3}D}`</td>
+</tr>
+<tr>
+  <td>$$\ce{NO^{(2.)-}}$$</td>
+  <td>`\ce{NO^{(2.)-}}`</td>
+</tr>
+<tr>
+  <td>$$\ce{A \pm B}$$</td>
+  <td>`\ce{A \pm B}`</td>
+</tr>
+<tr>
+  <td>$$\pu{123 kJ*mol-1}$$</td>
+  <td>`\pu{123 kJ*mol-1}`</td>
+</tr>
+</table>
+
+Ref: [[https://mhchem.github.io/MathJax-mhchem/]]

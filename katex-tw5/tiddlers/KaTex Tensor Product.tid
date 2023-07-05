@@ -1,0 +1,70 @@
+created: 20230703004032075
+modified: 20230703004058515
+tags: Examples
+title: KaTex Tensor Product
+
+$$
+\mathbf{x} \otimes \mathbf{y} \otimes \mathbf{z}=
+\begin{aligned}
+\left[\begin{array}{l}
+x_{1} \\
+x_{2}
+\end{array}\right] \otimes\left[\begin{array}{l}
+y_{1} \\
+y_{2}
+\end{array}\right] \otimes\left[\begin{array}{l}
+z_{1} \\
+z_{2}
+\end{array}\right]=\left[\begin{array}{l}
+x_{1} \\
+x_{2}
+\end{array}\right] \otimes\left[\begin{array}{l}
+y_{1} z_{1} \\
+y_{1} z_{2} \\
+y_{2} z_{1} \\
+y_{2} z_{2}
+\end{array}\right] =\left[\begin{array}{l}
+x_{1} y_{1} z_{1} \\
+x_{1} y_{1} z_{2} \\
+x_{1} y_{2} z_{1} \\
+x_{1} y_{2} z_{2} \\
+x_{2} y_{1} z_{1} \\
+x_{2} y_{1} z_{2} \\
+x_{2} y_{2} z_{1} \\
+x_{2} y_{2} z_{2}
+\end{array}\right]
+\end{aligned}
+$$
+
+```
+\mathbf{x} \otimes \mathbf{y} \otimes \mathbf{z}=
+\begin{aligned}
+\left[\begin{array}{l}
+x_{1} \\
+x_{2}
+\end{array}\right] \otimes\left[\begin{array}{l}
+y_{1} \\
+y_{2}
+\end{array}\right] \otimes\left[\begin{array}{l}
+z_{1} \\
+z_{2}
+\end{array}\right]=\left[\begin{array}{l}
+x_{1} \\
+x_{2}
+\end{array}\right] \otimes\left[\begin{array}{l}
+y_{1} z_{1} \\
+y_{1} z_{2} \\
+y_{2} z_{1} \\
+y_{2} z_{2}
+\end{array}\right] =\left[\begin{array}{l}
+x_{1} y_{1} z_{1} \\
+x_{1} y_{1} z_{2} \\
+x_{1} y_{2} z_{1} \\
+x_{1} y_{2} z_{2} \\
+x_{2} y_{1} z_{1} \\
+x_{2} y_{1} z_{2} \\
+x_{2} y_{2} z_{1} \\
+x_{2} y_{2} z_{2}
+\end{array}\right]
+\end{aligned}
+```

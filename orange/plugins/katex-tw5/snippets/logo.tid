@@ -1,8 +1,0 @@
-title: $:/plugins/orange/katex-tw5/snippets/logo
-tags: $:/tags/KaTeX/Snippet
-caption: KaTeX Logo
-description: Display a Logo of KaTeX
-preview: $$\KaTeX$$
-icon: $:/plugins/orange/katex-tw5/katex-logo
-
-$$\KaTeX$$

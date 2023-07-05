@@ -1,0 +1,24 @@
+created: 20230703023548519
+modified: 20230703023645465
+tags: Examples
+title: Text with Spacing
+
+Math-mode inline text with correct spacing
+
+$$
+\gdef\t{\expandafter\mathrel\expandafter\text} % text with spacing
+f(x) = \begin{cases}
+1 \t{if} x=0 \\
+0 \t{otherwise.}
+\end{cases}
+$$
+
+```
+$$
+\gdef\t{\expandafter\mathrel\expandafter\text} % text with spacing
+f(x) = \begin{cases}
+1 \t{if} x=0 \\
+0 \t{otherwise.}
+\end{cases}
+$$
+```

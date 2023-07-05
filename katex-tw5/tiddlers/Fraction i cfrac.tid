@@ -1,0 +1,38 @@
+created: 20230703021953208
+modified: 20230703022123001
+tags: Examples
+title: Fraction i cfrac
+
+`\cfrac` draw continued fractions.
+
+$$
+\cfrac{2}{1+\cfrac{2}{1+\cfrac{2}{1}}} 
+$$
+
+```
+$$
+\cfrac{2}{1+\cfrac{2}{1+\cfrac{2}{1}}} 
+$$
+```
+
+$$
+\frac{\frac{a}{b+c}+d}{a +\frac{b}{c+d}}
+$$
+
+```
+$$
+\frac{\frac{a}{b+c}+d}{a +\frac{b}{c+d}}
+$$
+```
+
+$$
+\frac{\cfrac{a}{b+c}+d}{a +\cfrac{b}{c+d}}
+$$
+
+```
+$$
+\frac{\cfrac{a}{b+c}+d}{a +\cfrac{b}{c+d}}
+$$
+```
+
+https://www.tutorialspoint.com/tex_commands/cfrac.htm

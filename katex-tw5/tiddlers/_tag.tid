@@ -1,0 +1,18 @@
+created: 20230703033229143
+modified: 20230703034123857
+tags: Examples
+title: \tag
+
+$$
+  z = \frac{1}{2}a_0 + \sum{n=1}^{\infty}b_n\cos(nx) \tag{eq1} \\
+  y = \frac{1}{2}a_0 + \sum{n=1}^{\infty}b_n\cos(nx)
+$$
+
+```
+$$
+  z = \frac{1}{2}a_0 + \sum{n=1}^{\infty}b_n\cos(nx) \tag{eq1} \\
+  y = \frac{1}{2}a_0 + \sum{n=1}^{\infty}b_n\cos(nx)
+$$
+```
+
+https://github.com/KaTeX/KaTeX/issues/2379

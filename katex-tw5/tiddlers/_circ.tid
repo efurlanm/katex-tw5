@@ -1,0 +1,23 @@
+created: 20230703034507596
+modified: 20230705130644093
+tags: Examples
+title: \circ
+type: text/vnd.tiddlywiki
+
+$$
+f \circ g \\
+f ∘ g \\
+f \cdot g \\
+f ⋅ g
+$$
+
+```
+$$
+f \circ g \\
+f ∘ g \\
+f \cdot g \\
+f ⋅ g
+$$
+```
+
+https://github.com/KaTeX/KaTeX/issues/3578

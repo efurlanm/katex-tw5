@@ -1,0 +1,79 @@
+created: 20230703004729210
+modified: 20230703024736470
+tags: Examples
+title: Arrows
+
+Examples from https://kookma-katex.tiddlyhost.com/#Math-Linux.com
+
+<table>
+  <tr>
+    <th> Desc </th>
+    <th> Katex code </th>
+    <th> Result </th>
+  </tr>
+  <tr>
+    <td> Latex Left arrow </td>
+    <td> ` \leftarrow ` </td>
+    <td> $$ \leftarrow $$ </td>
+  </tr>
+  <tr>
+    <td> Latex Long left arrow </td>
+    <td> ` \longleftarrow ` </td>
+    <td> $$ \longleftarrow $$ </td>
+  </tr>
+  <tr>
+    <td> Latex Double left arrow </td>
+    <td> ` \Leftarrow ` </td>
+    <td> $$ \Leftarrow $$ </td>
+  </tr>
+  <tr>
+    <td> Latex Long double left arrow </td>
+    <td> ` \Longleftarrow ` </td>
+    <td> $$ \Longleftarrow $$ </td>
+  </tr>
+  <tr>
+    <td> Latex Right arrow </td>
+    <td> ` \rightarrow ` </td>
+    <td> $$ \rightarrow $$ </td>
+  </tr>
+  <tr>
+    <td> Latex Long right arrow </td>
+    <td> ` \longrightarrow ` </td>
+    <td> $$ \longrightarrow $$ </td>
+  </tr>
+  <tr>
+    <td> Latex Double right arrow </td>
+    <td> ` \Rightarrow ` </td>
+    <td> $$ \Rightarrow $$ </td>
+  </tr>
+  <tr>
+    <td> Latex Long Double right arrow </td>
+    <td> ` \Longrightarrow ` </td>
+    <td> $$ \Longrightarrow $$ </td>
+  </tr>
+  <tr>
+    <td> Latex Left and right arrow </td>
+    <td> ` \leftrightarrow ` </td>
+    <td> $$ \leftrightarrow $$ </td>
+  </tr>
+  <tr>
+    <td> Latex Long left and right arrow </td>
+    <td> ` \longleftrightarrow ` </td>
+    <td> $$ \longleftrightarrow $$ </td>
+  </tr>
+  <tr>
+    <td> Latex If and only if arrow </td>
+    <td> ` \Leftrightarrow ` </td>
+    <td> $$ \Leftrightarrow $$ </td>
+  </tr>
+  <tr>
+    <td> Latex Long If and only if arrow </td>
+    <td> ` \Longleftrightarrow ` </td>
+    <td> $$ \Longleftrightarrow $$ </td>
+  </tr>
+  <tr>
+    <td> Latex Right squig arrow </td>
+    <td> ` \rightsquigarrow ` </td>
+    <td> $$ \rightsquigarrow $$ </td>
+  </tr>
+</table>

@@ -1,0 +1,18 @@
+created: 20230703021905793
+modified: 20230703021927504
+tags: Examples
+title: Font Size Using Inline Style
+
+<div style="color:red;font-size:1.3em">
+$$
+\dfrac{\displaystyle\sum_{i=1}^n f(x_i)}{1 + \dfrac{1}{b}}
+$$
+</div>
+
+```
+<div style="color:red;font-size:1.3em">
+$$
+\dfrac{\displaystyle\sum_{i=1}^n f(x_i)}{1 + \dfrac{1}{b}}
+$$
+</div>
+```

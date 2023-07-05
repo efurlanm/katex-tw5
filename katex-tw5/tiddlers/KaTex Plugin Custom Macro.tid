@@ -1,0 +1,27 @@
+created: 20210913170034682
+modified: 20230703024659789
+tags: Examples
+title: KaTex Plugin Custom Macro
+
+For creating KaTeX custom macro see:
+
+* $:/plugins/orange/katex-tw5/config, config tab
+* https://github.com/Jermolene/TiddlyWiki5/pull/5933
+
+
+KaTeX custom macros are global macros, defined at the plugin config tab. These macros use a TW tiddler to store the definition.
+
+To see KaTeX macros in this Tiddlywiki see <<tag "$:/tags/KaTeX/Macro">>
+
+!! Example
+In this Tiddlywiki there is a custom macro called `\ddfrac` which uses `displaystyle`. See below example to see how it works.
+
+$$
+\bar{T} = \ddfrac{\int_a^b \int_c^d T(x,y)dxdy}{\int_a^b \int_c^d dxdy}
+$$
+
+```
+$$
+\bar{T} = \ddfrac{\int_a^b \int_c^d T(x,y)dxdy}{\int_a^b \int_c^d dxdy}
+$$
+```

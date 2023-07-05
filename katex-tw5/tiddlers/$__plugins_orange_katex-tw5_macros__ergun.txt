@@ -1,0 +1,1 @@
+\frac{dP}{dz} = \frac{G}{\rho d_p} \frac{1-\phi}{\phi^3} \Big[ \frac{150(1-\phi)\mu}{d_p} + 1.75G\Big]

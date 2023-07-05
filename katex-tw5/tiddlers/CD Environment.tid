@@ -1,0 +1,20 @@
+created: 20230703002907307
+modified: 20230703002929140
+tags: Examples
+title: CD Environment
+
+$$
+\begin{CD}
+A @>{\varphi}>> B \\
+@V{\varrho_f}VV @VV{\varrho_g}V\\
+A_f @>{\varphi}>> B_g 
+\end{CD}
+$$
+
+```
+\begin{CD}
+A @>{\varphi}>> B \\
+@V{\varrho_f}VV @VV{\varrho_g}V\\
+A_f @>{\varphi}>> B_g 
+\end{CD}
+```

@@ -1,0 +1,20 @@
+created: 20230703021812265
+modified: 20230703021846710
+tags: Examples
+title: Def
+
+`#` - indicates numbered arguments in definition
+
+$$
+\def\specialFrac#1#2{\frac{x + #1}{y + #2}} 
+\specialFrac{7}{z+3} 
+$$
+
+```
+$$
+\def\specialFrac#1#2{\frac{x + #1}{y + #2}} 
+\specialFrac{7}{z+3} 
+$$
+```
+
+https://www.tutorialspoint.com/tex_commands/index.htm

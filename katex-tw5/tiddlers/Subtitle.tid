@@ -1,0 +1,26 @@
+created: 20230705130743165
+modified: 20230705140003008
+tags: 
+title: Subtitle
+type: text/vnd.tiddlywiki
+
+<style>
+    .katex-version{
+        display: none;
+    }
+    .katex-version::after{
+        content:"0.10.2 or earlier";
+    }
+</style>
+<span class="katex">
+    <span class="katex-mathml"> The KaTeX stylesheet is not loaded! </span>
+    <span class="katex-version rule"> KaTeX stylesheet version: </span>
+</span>
+<br>
+<span style="font-family:KaTeX_Typewriter;">
+    http://github.com/efurlanm/katex-tw5
+</span>
+<br>
+<$list filter="[all[tiddlers]sort[modified]last[]get[modified]format:relativedate[]]">
+    <span style="font-family:KaTeX_Fraktur;"> Last edited: {{!!title}} </span>
+</$list>

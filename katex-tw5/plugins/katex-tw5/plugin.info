@@ -1,0 +1,11 @@
+{
+    "title": "$:/plugins/orange/katex-tw5",
+    "name": "KaTeX",
+    "description": "wrapper for the KaTeX math typesetting library",
+    "list": "readme usage config",
+    "version": "0.16.8",
+    "plugin-type": "plugin",
+    "dependents": "",
+    "revision": "0",
+    "bag": "default"
+}

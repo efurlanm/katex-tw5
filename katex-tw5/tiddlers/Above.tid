@@ -1,0 +1,10 @@
+created: 20210912203319549
+modified: 20230703021538473
+tags: Examples
+title: Above
+
+$$
+a + 1 \above 2pt b-\sin(x)
+$$
+
+https://www.tutorialspoint.com/tex_commands/index.htm

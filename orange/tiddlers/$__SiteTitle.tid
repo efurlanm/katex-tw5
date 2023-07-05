@@ -1,4 +1,0 @@
-title: $:/SiteTitle
-type: text/vnd.tiddlywiki
-
-$$ \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi $$ <br> KaTeX TW5 Plugin

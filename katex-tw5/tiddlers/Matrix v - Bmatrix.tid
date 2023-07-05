@@ -1,0 +1,26 @@
+created: 20230703004537197
+modified: 20230703004625309
+tags: Examples
+title: Matrix v - Bmatrix
+
+Example from https://www.math-linux.com/latex-26/faq/latex-faq/
+
+$$
+\begin{equation}
+   \begin{Bmatrix} 
+   a_{11} & a_{12} & a_{13}  \\
+   a_{21} & a_{22} & a_{23}  \\
+   a_{31} & a_{32} & a_{33}  \\
+   \end{Bmatrix} 
+\end{equation}
+$$
+
+```
+\begin{equation}
+   \begin{Bmatrix} 
+   a_{11} & a_{12} & a_{13}  \\
+   a_{21} & a_{22} & a_{23}  \\
+   a_{31} & a_{32} & a_{33}  \\
+   \end{Bmatrix} 
+\end{equation}
+```

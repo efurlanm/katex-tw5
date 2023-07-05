@@ -1,0 +1,8 @@
+created: 20230703024306196
+modified: 20230703024527009
+tags: Examples $:/tags/AboveStory
+title: Global Macros Using AboveStory Tag
+
+$$
+\gdef\Borel{\mathcal{B}}
+$$

@@ -1,0 +1,16 @@
+created: 20230703034001116
+modified: 20230703034214332
+tags: Examples
+title: \braket inside \frac
+
+$$
+\frac{1}{\braket{\Phi|\Phi}}
+$$
+
+```
+$$
+\frac{1}{\braket{\Phi|\Phi}}
+$$
+```
+
+https://github.com/KaTeX/KaTeX/issues/3500

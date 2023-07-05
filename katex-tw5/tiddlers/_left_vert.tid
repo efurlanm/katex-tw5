@@ -1,0 +1,16 @@
+created: 20230703035153603
+modified: 20230703035231700
+tags: Examples
+title: \left\vert
+
+$$
+\dfrac{\left\vert\dfrac{12\sqrt{3+211}}{a}\right|}{1}
+$$
+
+```
+$$
+\dfrac{\left\vert\dfrac{12\sqrt{3+211}}{a}\right|}{1}
+$$
+```
+
+https://github.com/KaTeX/KaTeX/issues/3168

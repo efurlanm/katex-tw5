@@ -1,0 +1,27 @@
+created: 20230703022320049
+modified: 20230703022354624
+tags: Examples
+title: Fractions
+
+* displaystyle	
+* textstyle
+* scriptstyle
+* scriptscriptstyle
+
+$$
+\dfrac{1}{\dfrac{a}{b}} \\[2mm]
+\tfrac{1}{\tfrac{a}{b}} \\[2mm]
+{\scriptstyle \frac{1}{\frac{a}{b}} } \\[2mm] 
+{\scriptscriptstyle \frac{1}{\frac{a}{b}} } \\[2mm]
+$$
+
+```
+$$
+\dfrac{1}{\dfrac{a}{b}} \\[2mm]
+\tfrac{1}{\tfrac{a}{b}} \\[2mm]
+{\scriptstyle \frac{1}{\frac{a}{b}} } \\[2mm] 
+{\scriptscriptstyle \frac{1}{\frac{a}{b}} } \\[2mm]
+$$
+```
+
+https://www.sascha-frank.com/fractions.html

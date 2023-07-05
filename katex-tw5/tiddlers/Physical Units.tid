@@ -1,0 +1,54 @@
+created: 20230703021007488
+modified: 20230703021440482
+tags: Examples
+title: Physical Units
+
+Examples from https://mhchem.github.io/MathJax-mhchem/
+
+For physical uints in KaTeX (mhchem) use \pu{} as in:
+
+There are two conventions regarding the multiplication within units
+
+$$\pu{123 J s}$$
+
+`\pu{123 J s}`
+
+$$\pu{123 J*s}$$
+
+`\pu{123 J*s}`
+
+There are four conventions regarding divisions
+
+$$\pu{123 kJ/mol}$$
+
+`\pu{123 kJ/mol}`
+
+$$\pu{123 kJ//mol}$$
+
+`\pu{123 kJ//mol}`
+
+$$\pu{123 kJ mol-1}$$
+
+`\pu{123 kJ mol-1}`
+
+$$\pu{123 kJ*mol-1}$$
+
+`\pu{123 kJ*mol-1}`
+
+There are four main conventions for writing numbers in scientific notation
+
+$$\pu{1.2e3 kJ}$$
+
+`\pu{1.2e3 kJ}`
+
+$$\pu{1,2e3 kJ}$$
+
+`\pu{1,2e3 kJ}`
+
+$$\pu{1.2E3 kJ}$$
+
+`\pu{1.2E3 kJ}`
+
+$$\pu{1,2E3 kJ}$$
+
+`\pu{1,2E3 kJ}`

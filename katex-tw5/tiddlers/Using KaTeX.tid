@@ -1,0 +1,10 @@
+created: 20230702002654841
+modified: 20230702002718541
+revision: 0
+tags: 
+title: Using KaTeX
+type: text/vnd.tiddlywiki
+
+The usual way to include ~LaTeX is to use `$$`, as shown in the examples below.
+
+The underlying KaTeX widget is provided under the name `<$latex>` and is also available under the alias `<$katex>`. It's better to use the generic `<$latex>` name unless you are running multiple ~LaTeX plugins and wish to specifically target KaTeX.

@@ -1,0 +1,24 @@
+created: 20230703021607604
+modified: 20230703021749945
+tags: Examples
+title: Comments
+
+`%` indicates comments in the source code. Not rendered in final output.
+
+$$
+% Note: (x+1)^2 is NOT x^2 + 1
+(x+1)^2      % original expression
+= (x+1)(x+1) % definition of exponent
+= x^2 + 2x + 1 % FOIL, combine like terms
+$$
+
+```
+$$
+% Note: (x+1)^2 is NOT x^2 + 1
+(x+1)^2      % original expression
+= (x+1)(x+1) % definition of exponent
+= x^2 + 2x + 1 % FOIL, combine like terms
+$$
+```
+
+https://www.tutorialspoint.com/tex_commands/index.htm

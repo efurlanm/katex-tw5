@@ -1,0 +1,29 @@
+created: 20230701211822263
+modified: 20230705135303188
+title: HelloThere
+type: text/vnd.tiddlywiki
+
+Welcome to my TiddlyWiki Notebook dedicated to the KaTeX TW5 plugin for mathematical typesetting, based on Khan Academy's KaTeX. It is fully self-contained and does not need an Internet connection to work.
+
+I'm not the author of the plugin, I just took what was [[already done|https://tiddlywiki.com/plugins/tiddlywiki/katex]] and updated the [[KaTeX files|https://github .com /KaTeX/ KaTeX/releases/]]. All credit goes to the original authors, and the works follow their licenses. Some sources :
+
+* https://tiddlywiki.com/plugins/tiddlywiki/katex
+* https://katex.org
+* https://kookma-katex.tiddlyhost.com
+* https://mathematik.tiddlyspot.com/
+
+
+
+The plugin adds 0.8&nbsp;MB to the TiddlyWiki 5.3.0 empty file size (2.3&nbsp;MB), for a total of 3.1&nbsp;MB.
+
+;2023-07-01 (0.16.8)
+:Updated KaTeX to 0.16.8 - please check the [[Release Notes|https://github.com/KaTeX/KaTeX/releases]] in the KaTeX repo to see what has changed.
+:The fonts now use the compact file format [[WOFF2|https://www.w3.org/tr/woff2/]].
+:Examples were improved.
+
+;2022-12-28 (0.16.4.1)
+:Updated "publisher" and "name", in "$:/plugins/publisher/name". The publisher is now "orange", and the name is "katex-tw5".
+
+;2022-12-27 (0.16.4)
+:Update KaTeX to 0.16.4 - please check the [[Release Notes|https://github.com/KaTeX/KaTeX/releases]] in the KaTeX repo to see what has changed.
+:Update TiddlyWiki to 5.2.5.

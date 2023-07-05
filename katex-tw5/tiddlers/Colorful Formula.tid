@@ -1,0 +1,32 @@
+created: 20230703003208253
+modified: 20230703003743117
+tags: Examples
+title: Colorful Formula
+
+<table>
+<tr>
+  <th>Desc</th>
+  <th>Katex code</th>
+  <th>Result</th>
+</tr>
+<tr>
+  <td>textcolor</td>
+  <td>\textcolor{blue}{F=ma}</td>
+  <td>$$\textcolor{blue}{F=ma}$$</td>
+</tr>
+<tr>
+  <td>textcolor</td>
+  <td>\textcolor{#228B22}{F=ma}</td>
+  <td>$$\textcolor{#228B22}{F=ma}$$</td>
+</tr>
+<tr>
+  <td>colorbox</td>
+  <td>\colorbox{aqua}{$F=ma$}</td>
+  <td>$$\colorbox{aqua}{$F=ma$}$$</td>
+</tr>
+<tr>
+  <td>fcolorbox</td>
+  <td>\fcolorbox{red}{aqua}{$F=ma$}</td>
+  <td>$$\fcolorbox{red}{yellow}{$F=ma$}$$</td>
+</tr>
+</table>

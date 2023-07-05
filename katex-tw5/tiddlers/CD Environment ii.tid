@@ -1,0 +1,20 @@
+created: 20230703002940419
+modified: 20230703002957938
+tags: Examples
+title: CD Environment ii
+
+$$
+\begin{CD}
+   A @>a>> B \\
+@VbVV @AAcA \\
+   C @= D
+\end{CD}
+$$
+
+```
+\begin{CD}
+   A @>a>> B \\
+@VbVV @AAcA \\
+   C @= D
+\end{CD}
+```

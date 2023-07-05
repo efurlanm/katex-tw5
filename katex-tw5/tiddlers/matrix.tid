@@ -1,0 +1,30 @@
+created: 20230703041320232
+modified: 20230703041625324
+tags: Examples
+title: matrix
+
+$$
+J(2) = 
+\begin{pmatrix}
+2 & 0 & 0 & 0 & 0\\
+0 & 2 & 0 & 0 & 0\\
+0 & 1 & 2 & 0 & 0\\
+0 & 0 & 0 & 2 & 0\\
+0 & 0 & 0 & 2 & 1
+\end{pmatrix}\,.
+$$
+
+```
+$$
+J(2) = 
+\begin{pmatrix}
+2 & 0 & 0 & 0 & 0\\
+0 & 2 & 0 & 0 & 0\\
+0 & 1 & 2 & 0 & 0\\
+0 & 0 & 0 & 2 & 0\\
+0 & 0 & 0 & 2 & 1
+\end{pmatrix}\,.
+$$
+```
+
+https://tex.stackexchange.com/questions/631972/representing-the-following-matrix-in-katex-html

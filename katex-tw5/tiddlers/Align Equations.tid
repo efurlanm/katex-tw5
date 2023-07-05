@@ -1,0 +1,20 @@
+created: 20230703002627876
+modified: 20230703002705720
+tags: Examples
+title: Align Equations
+
+$$
+\begin{equation*}
+\begin{split}   a &=b+c\\
+      &=e+f
+\end{split}
+\end{equation*}
+$$
+
+```
+\begin{equation*}
+\begin{split}   a &=b+c\\
+      &=e+f
+\end{split}
+\end{equation*}
+```

@@ -1,0 +1,26 @@
+created: 20230703003804434
+modified: 20230703004008300
+tags: Examples
+title: Fraction Examples
+
+Examples from https://www.math-linux.com/latex-26/faq/latex-faq/
+
+Latex limit with fraction
+
+$$
+\lim_{x \to a} \frac{f(x)-f(a)}{x-a}
+$$
+
+```
+\lim_{x \to a} \frac{f(x)-f(a)}{x-a}
+```
+
+Sum with fraction
+
+$$
+\sum_{n=0}^{\infty} \frac{1}{n^2+1}
+$$
+
+```
+\sum_{n=0}^{\infty} \frac{1}{n^2+1}
+```

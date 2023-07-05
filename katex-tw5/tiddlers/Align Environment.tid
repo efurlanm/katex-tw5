@@ -1,0 +1,22 @@
+created: 20210912123656537
+modified: 20230703002617319
+tags: Examples
+title: Align Environment
+
+$$
+\begin{align*}
+\frac{dF}{dW}
+      &= -k_f C_A C_B\\[5mm]
+\frac{dT}{dW}
+      &= \frac{ -r_i \Delta H_i - Ua (T - T_a)}{\sum F_i C_{pi}}
+\end{align*}
+$$
+
+```
+\begin{align*}
+\frac{dF}{dW}
+      &= -k_f C_A C_B\\[5mm]
+\frac{dT}{dW}
+      &= \frac{ -r_i \Delta H_i - Ua (T - T_a)}{\sum F_i C_{pi}}
+\end{align*}
+```

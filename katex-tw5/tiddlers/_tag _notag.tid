@@ -1,0 +1,26 @@
+created: 20230703032611973
+modified: 20230703033227852
+tags: Examples
+title: \tag \notag
+
+$$
+\begin{align}
+  x & = y \\
+  z \tag{foo} \\
+  \notag y \\
+  bye
+\end{align}
+$$
+
+```
+$$
+\begin{align}
+  x & = y \\
+  z \tag{foo} \\
+  \notag y \\
+  bye
+\end{align}
+$$
+```
+
+https://github.com/KaTeX/KaTeX/pull/2952

@@ -1,0 +1,167 @@
+created: 20230701211918524
+modified: 20230702005917862
+revision: 0
+tags: Examples
+title: Examples from kookma-katex (chemical)
+type: text/vnd.tiddlywiki
+
+!Chemical equations
+
+```
+$$
+\ce{H2O}
+$$
+```
+$$
+\ce{H2O}
+$$
+
+
+```
+$$
+\ce{(CrO4^2-)}
+$$
+```
+$$
+\ce{(CrO4^2-)}
+$$
+
+
+```
+$$
+\ce{$n$ H2O}
+$$
+```
+$$
+\ce{$n$ H2O}
+$$
+
+
+```
+$$
+\ce{^227_90Th+}
+$$
+```
+$$
+\ce{^227_90Th+}
+$$
+
+
+```
+$$
+\ce{(CO2 + C -> 2 CO)}
+$$
+```
+$$
+\ce{(CO2 + C -> 2 CO)}
+$$
+
+
+```
+$$
+\ce{A ->[H2O] B}
+$$
+```
+$$
+\ce{A ->[H2O] B}
+$$
+
+
+```
+$$
+\ce{A\bond{1}B\bond{2}C\bond{3}D}
+$$
+```
+$$
+\ce{A\bond{1}B\bond{2}C\bond{3}D}
+$$
+
+
+```
+$$
+\ce{NO^{(2.)-}}
+$$
+```
+$$
+\ce{NO^{(2.)-}}
+$$
+
+
+```
+$$
+\pu{123 kJ*mol-1}
+$$
+```
+$$
+\pu{123 kJ*mol-1}
+$$
+
+
+```
+$$
+\pu{123 J s}
+$$
+```
+$$
+\pu{123 J s}
+$$
+
+
+```
+$$
+\pu{123 kJ//mol}
+$$
+```
+$$
+\pu{123 kJ//mol}
+$$
+
+
+
+```
+$$
+\pu{1.2e3 kJ}
+$$
+```
+$$
+\pu{1.2e3 kJ}
+$$
+
+
+!!Comments
+```
+$$
+% Note: (x+1)^2 is NOT x^2 + 1
+(x+1)^2      % original expression
+= (x+1)(x+1) % definition of exponent
+= x^2 + 2x + 1 % FOIL, combine like terms
+$$
+```
+$$
+% Note: (x+1)^2 is NOT x^2 + 1
+(x+1)^2      % original expression
+= (x+1)(x+1) % definition of exponent
+= x^2 + 2x + 1 % FOIL, combine like terms
+$$
+
+!!Def
+```
+$$
+\def\specialFrac#1#2{\frac{x + #1}{y + #2}} 
+\specialFrac{7}{z+3}
+$$
+```
+$$
+\def\specialFrac#1#2{\frac{x + #1}{y + #2}} 
+\specialFrac{7}{z+3}
+$$
+
+
+```
+$$
+\ce{^40_18Ar + \gamma{} + \nu_e}
+$$
+```
+$$
+\ce{^40_18Ar + \gamma{} + \nu_e}
+$$

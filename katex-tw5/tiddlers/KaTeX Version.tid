@@ -1,0 +1,15 @@
+created: 20230703023514546
+modified: 20230703023540219
+tags: Examples
+title: KaTeX Version
+
+<style>
+  .katex-version {display: none;}
+  .katex-version::after {content:"0.10.2 or earlier";}
+</style>
+<span class="katex">
+  <span class="katex-mathml">The KaTeX stylesheet is not loaded!</span>
+  <span class="katex-version rule">KaTeX stylesheet version: </span>
+</span>
+
+Ref: https://katex.org/docs/issues.html
