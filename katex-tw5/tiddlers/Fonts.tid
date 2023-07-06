@@ -1,5 +1,5 @@
 created: 20230705133313070
-modified: 20230705153706570
+modified: 20230706235335169
 tags: Examples
 title: Fonts
 type: text/vnd.tiddlywiki
@@ -31,11 +31,6 @@ type: text/vnd.tiddlywiki
 @@font-family:KaTeX_Typewriter; KaTeX_Typewriter font family 0123 @@
 
 <br>
-
-Regular KaTeX Main
-
-`Source KaTeX Typewriter`
-
 
 ! Open Sans font
 
