@@ -1,6 +1,6 @@
 caption: {{$:/language/SideBar/Open/Caption}}
 created: 20230706153543688
-modified: 20230706153550824
+modified: 20230706154442116
 tags: $:/tags/SideBar
 title: $:/core/ui/SideBar/Open
 type: text/vnd.tiddlywiki
@@ -41,6 +41,6 @@ $button$
 
 <br><br>
 <span class="tc-subtitle">
-The <span class="mybutton">{{$:/core/images/save-button}}</span> button saves a copy of this Notebook.<br>
-There is also a <a href="alltiddlers.html" style="color:grey;">static online</a> representation.
+The <span class="mybutton">&nbsp;{{$:/core/images/save-button}}&nbsp;</span> button saves a copy of this Notebook.<br>
+There is also a &nbsp;<a href="alltiddlers.html" style="color:grey;">static online</a>&nbsp; representation.
 </span>
