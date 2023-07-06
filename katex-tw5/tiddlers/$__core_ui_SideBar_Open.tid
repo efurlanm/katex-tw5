@@ -1,0 +1,46 @@
+caption: {{$:/language/SideBar/Open/Caption}}
+created: 20230706153543688
+modified: 20230706153550824
+tags: $:/tags/SideBar
+title: $:/core/ui/SideBar/Open
+type: text/vnd.tiddlywiki
+
+\whitespace trim
+\define lingo-base() $:/language/CloseAll/
+
+\define drop-actions()
+<$action-listops $tiddler=<<tv-story-list>> $subfilter="+[insertbefore<actionTiddler>,<currentTiddler>]"/>
+\end
+
+\define placeholder()
+<div class="tc-droppable-placeholder"/>
+\end
+
+\define droppable-item(button)
+\whitespace trim
+<$droppable actions=<<drop-actions>> enable=<<tv-allow-drag-and-drop>> tag="div">
+<<placeholder>>
+<div>
+$button$
+</div>
+</$droppable>
+\end
+
+<div class="tc-sidebar-tab-open">
+<$list filter="[list<tv-story-list>]" history=<<tv-history-list>> storyview="pop">
+<div class="tc-sidebar-tab-open-item">
+<$macrocall $name="droppable-item" button="<$button message='tm-close-tiddler' tooltip={{$:/language/Buttons/Close/Hint}} aria-label={{$:/language/Buttons/Close/Caption}} class='tc-btn-invisible tc-btn-mini tc-small-gap-right'>{{$:/core/images/close-button}}</$button><$link/>"/>
+</div>
+</$list>
+<$tiddler tiddler="">
+<div>
+<$macrocall $name="droppable-item" button="<$button message='tm-close-all-tiddlers' class='tc-btn-invisible tc-btn-mini'><<lingo Button>></$button>"/>
+</div>
+</$tiddler>
+</div>
+
+<br><br>
+<span class="tc-subtitle">
+The <span class="mybutton">{{$:/core/images/save-button}}</span> button saves a copy of this Notebook.<br>
+There is also a <a href="alltiddlers.html" style="color:grey;">static online</a> representation.
+</span>
