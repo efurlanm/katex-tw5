@@ -1,9 +1,8 @@
 created: 20230705131856493
-modified: 20230705132020934
+modified: 20230705234139788
 tags: 
 title: Title
 type: text/vnd.tiddlywiki
 
-$$\int_{0}^\infty\hat f(\xi)e^{2\pi i\xi x}d\xi$$
-<br>
+$$\int_{0}^\infty\hat f(\xi)e^{2\pi i\xi x}d\xi$$<br>
 KaTeX TW5 Plugin

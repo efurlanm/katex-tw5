@@ -1,0 +1,7 @@
+created: 12000510000000000
+modified: 20230705234735182
+tags: 
+title: ___Static
+type: text/vnd.tiddlywiki
+
+This tiddler usually appears at the top of the static page representing the content of the [ext[main TiddlyWiki notebook|index.html]] with all the tiddlers together in one place in an infinite list. This is a single HTML file that can be downloaded (Ctrl-S) for offline reading, the sources can be viewed using Ctrl-U, and a quick search can be performed using Crtl-F. It does not contain all of the functionality of the main TiddlyWiki and is intended to be viewable in web browsers that have JavaScript disabled.
