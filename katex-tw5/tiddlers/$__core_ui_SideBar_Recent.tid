@@ -1,6 +1,6 @@
 caption: {{$:/language/SideBar/Recent/Caption}}
 created: 20230705232915094
-modified: 20230705235327534
+modified: 20230706153116058
 tags: $:/tags/SideBar
 title: $:/core/ui/SideBar/Recent
 type: text/vnd.tiddlywiki
@@ -8,7 +8,7 @@ type: text/vnd.tiddlywiki
 <$macrocall $name="timeline" format={{$:/language/RecentChanges/DateFormat}}/>
 
 <br><br>
-
-The <span class="mybutton">{{$:/core/images/save-button}}</span> button saves a copy of this Notebook.
-
-There is also a [ext[static online|alltiddlers.html]] representation.
+<span class="tc-subtitle">
+The <span class="mybutton">{{$:/core/images/save-button}}</span> button saves a copy of this Notebook.<br>
+There is also a <a href="alltiddlers.html" style="color:grey;">static online</a> representation.
+</span>
