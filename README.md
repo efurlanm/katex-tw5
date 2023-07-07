@@ -15,6 +15,6 @@ I'm not the author of the plugin, I just got what I was already ready, and updat
 
 As I didn't make the plugin, I have no idea how to eliminate issues. Please contact the original authors.
 
-## Licenses
+## License
 
-My work follows the MIT license, and the works of other authors follow their licenses.
+My work follows the MIT license for software, and CC-BY-4.0 for non-software. The other authors follow their respective licenses.
