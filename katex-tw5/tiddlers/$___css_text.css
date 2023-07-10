@@ -153,12 +153,12 @@ a[href*="//"]:after
   font-weight: 300;  /* light */
   font-size: 0.85em;
   content: "\2197"; /* top right arrow: ↗ */
-  color: var(--textcolor);
+  color: #121212;
   opacity: 0.25;
 }
 
 a[href*="//"]:hover:after
 {
-  color: var(--highlight);
+  color: #0000EE;
   opacity: 1;
 }
