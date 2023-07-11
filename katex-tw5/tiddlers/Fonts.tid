@@ -1,38 +1,57 @@
 created: 20230705133313070
-modified: 20230706235335169
+modified: 20230711193250628
 tags: Examples
 title: Fonts
 type: text/vnd.tiddlywiki
 
-! KaTeX font
+! KaTeX internal font
 
-@@font-family:KaTeX_AMS; KaTeX_AMS font family 0123 @@
+@@font-family:KaTeX_AMS; KaTeX_AMS font family 0123456789 @@
 
-@@font-family:KaTeX_Caligraphic; KaTeX_Caligraphic font family 0123 @@
+@@font-family:KaTeX_Caligraphic; KaTeX_Caligraphic font family 0123456789 @@
 
-@@font-family:KaTeX_Fraktur; KaTeX_Fraktur font family 0123 @@
+@@font-family:KaTeX_Fraktur; KaTeX_Fraktur font family 0123456789 @@
 
-@@font-family:KaTeX_Main; KaTeX_Main font family 0123 @@
+@@font-family:KaTeX_Main; KaTeX_Main font family 0123456789 @@
 
-@@font-family:KaTeX_Math; KaTeX_Math font family 0123 @@
+@@font-family:KaTeX_Math; KaTeX_Math font family 0123456789 @@
 
-@@font-family:KaTeX_SansSerif; KaTeX_SansSerif font family 0123 @@
+@@font-family:KaTeX_SansSerif; KaTeX_SansSerif font family 0123456789 @@
 
-@@font-family:KaTeX_Script; KaTeX_Script font family 0123 @@
+@@font-family:KaTeX_Script; KaTeX_Script font family 0123456789 @@
 
-@@font-family:KaTeX_Size1; KaTeX_Size1 font family 0123 @@
+@@font-family:KaTeX_Size1; KaTeX_Size1 font family 0123456789 @@
 
-@@font-family:KaTeX_Size2; KaTeX_Size2 font family 0123 @@
+@@font-family:KaTeX_Size2; KaTeX_Size2 font family 0123456789 @@
 
-@@font-family:KaTeX_Size3; KaTeX_Size3 font family 0123 @@
+@@font-family:KaTeX_Size3; KaTeX_Size3 font family 0123456789 @@
 
-@@font-family:KaTeX_Size4; KaTeX_Size4 font family 0123 @@
+@@font-family:KaTeX_Size4; KaTeX_Size4 font family 0123456789 @@
 
-@@font-family:KaTeX_Typewriter; KaTeX_Typewriter font family 0123 @@
+@@font-family:KaTeX_Typewriter; KaTeX_Typewriter font family 0123456789 @@
 
-<br>
+! Open Sans internal font
 
-! Open Sans font
+(default in this TiddlyWiki)
 
-@@font-family:OpenSans; 
- {{Lorem}} @@
+Regular Latin Open Sans font family 0123456789 
+
+! Examples
+
+!! Open Sans
+
+<div style="font-family:OpenSans;">
+  {{Lorem}}
+</div>
+
+!! KaTeX Main
+
+<div style="font-family:KaTeX_Main;">
+  {{Lorem}}
+</div>
+
+!! Serif system font
+
+<div style="font-family:serif;">
+  {{Lorem}}
+</div>
