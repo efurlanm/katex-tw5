@@ -1,5 +1,5 @@
 created: 20230705133313070
-modified: 20230711193250628
+modified: 20230729205742188
 tags: Examples
 title: Fonts
 type: text/vnd.tiddlywiki
@@ -30,28 +30,17 @@ type: text/vnd.tiddlywiki
 
 @@font-family:KaTeX_Typewriter; KaTeX_Typewriter font family 0123456789 @@
 
-! Open Sans internal font
-
-(default in this TiddlyWiki)
-
-Regular Latin Open Sans font family 0123456789 
 
 ! Examples
 
-!! Open Sans
-
-<div style="font-family:OpenSans;">
-  {{Lorem}}
-</div>
-
-!! KaTeX Main
+!! KaTeX Main font
 
 <div style="font-family:KaTeX_Main;">
   {{Lorem}}
 </div>
 
-!! Serif system font
+!! KaTeX Sans Serif font
 
-<div style="font-family:serif;">
+<div style="font-family:KaTeX_SansSerif ;">
   {{Lorem}}
 </div>

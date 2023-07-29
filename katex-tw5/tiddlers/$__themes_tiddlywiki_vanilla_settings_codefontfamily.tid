@@ -1,6 +1,6 @@
 created: 20230705134228531
-modified: 20230705134302447
+modified: 20230729205001931
 title: $:/themes/tiddlywiki/vanilla/settings/codefontfamily
 type: text/vnd.tiddlywiki
 
-KaTeX_Typewriter,"SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace
+"SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace

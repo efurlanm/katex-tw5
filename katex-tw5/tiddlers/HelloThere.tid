@@ -1,5 +1,5 @@
 created: 20230701211822263
-modified: 20230711155631566
+modified: 20230729205456838
 title: HelloThere
 type: text/vnd.tiddlywiki
 
@@ -13,13 +13,11 @@ I'm not the author of the plugin, I just took what was [[already done|https://ti
 
 The plugin adds 0.8&nbsp;MB to the TW 5.3.0 empty file size (2.3&nbsp;MB), for a total of 3.1&nbsp;MB. KaTeX fonts in the WOFF2 format were used, which occupy 254 kB, instead of the 296 kB of the WOFF format, representing a reduction of approximately 15%.
 
-In addition, I have also included the Regular Latin [[Open Sans|https://gwfh.mranftl.com/fonts/open-sans?subsets=latin]] font (18 kB) in the plugin. The [[Fonts]] tiddler has a list of available fonts, which can be used normally anywhere in TW. They can even be used as the Notebook's default font, see //Font family// and //Code font family// in the [[ControlPanel|$:/ControlPanel]] of this TW. Other fonts can be easily added using the Node.js version of TW, just download the WOFF2 file, place it in the plugin's //fonts// directory, and add an entry in //styles.tid//.
+The [[Fonts]] tiddler has a list of available fonts, which can be used normally anywhere in TW. They can even be used as the Notebook's default font. Other fonts can be easily added using the Node.js version of TW, just download the WOFF2 file, place it in the plugin's //fonts// directory, and add an entry in //styles.tid//.
 
 ;2023-07-01 (0.16.8)
 :Updated KaTeX to 0.16.8 - Check the [[Release Notes|https://github.com/KaTeX/KaTeX/releases]] in the KaTeX repo for the changes.
 :The fonts now use the compact file format [[WOFF2|https://www.w3.org/tr/woff2/]].
-:[[Open Sans|https://gwfh.mranftl.com/fonts/open-sans?subsets=latin]] font has been included.
-:Examples were improved.
 
 ;2022-12-28 (0.16.4.1)
 :Updated "publisher" and "name", in "$:/plugins/publisher/name". The publisher is now "orange", and the name is "katex-tw5".
