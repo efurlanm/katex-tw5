@@ -4,7 +4,7 @@ Wrapper for [KaTeX 0.16.8](https://katex.org/).
 
 You can install the plugin by navigating to the TiddlyWiki
 
-http://efurlanm.github.io/katex-tw5
+http://efurlanm.github.io/katex-tw5.html
 
 and dragging the plugin link to your TiddlyWiki.
 
