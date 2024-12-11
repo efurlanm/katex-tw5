@@ -1,7 +1,8 @@
 created: 20230703024306196
-modified: 20230703024527009
+modified: 20241211011212219
 tags: Examples $:/tags/AboveStory
 title: Global Macros Using AboveStory Tag
+type: text/vnd.tiddlywiki
 
 $$
 \gdef\Borel{\mathcal{B}}

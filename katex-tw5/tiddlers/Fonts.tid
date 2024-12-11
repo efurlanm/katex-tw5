@@ -1,5 +1,5 @@
 created: 20230705133313070
-modified: 20230729205742188
+modified: 20241211003854916
 tags: Examples
 title: Fonts
 type: text/vnd.tiddlywiki
@@ -30,17 +30,14 @@ type: text/vnd.tiddlywiki
 
 @@font-family:KaTeX_Typewriter; KaTeX_Typewriter font family 0123456789 @@
 
-
-! Examples
-
 !! KaTeX Main font
 
 <div style="font-family:KaTeX_Main;">
   {{Lorem}}
 </div>
 
-!! KaTeX Sans Serif font
+!! Serif font
 
-<div style="font-family:KaTeX_SansSerif ;">
+<div style="font-family:serif;">
   {{Lorem}}
 </div>

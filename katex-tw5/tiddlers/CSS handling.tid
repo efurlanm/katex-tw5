@@ -1,6 +1,5 @@
 created: 20230701211952762
-modified: 20230703024848920
-revision: 0
+modified: 20241211004450245
 tags: Examples
 title: CSS handling
 type: text/vnd.tiddlywiki
@@ -21,7 +20,7 @@ These definitions are currently ''removed manually'' from [[$:/plugins/orange/ka
 <span style='color:#ff5500;'>@font-face</span> {
 	<b>font-family</b>: KaTeX_AMS<span style='color:#ca60ca;'>;</span>
 	<b>src</b>: <span style='color:#644a9b;'>url(</span><span style='color:#bf0303;'>&lt;&lt;datauri '$:/plugins/orange/katex-tw5/fonts/KaTeX_AMS-Regular.woff2'&gt;&gt;</span><span style='color:#644a9b;'>)</span> <span style='color:#644a9b;'>format(</span><span style='color:#bf0303;'>'woff2'</span><span style='color:#644a9b;'>)</span><span style='color:#ca60ca;'>;</span>
-	<b>font-weight</b>: <span style='color:#b08000;'>400</span><span style='color:#ca60ca;'>;</span>
+	<b>font-weight</b>: <span style='color:#b08000;'>normal</span><span style='color:#ca60ca;'>;</span>
 	<b>font-style</b>: <span style='color:#b08000;'>normal</span><span style='color:#ca60ca;'>;</span>
 }</pre>
 
